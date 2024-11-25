@@ -1,0 +1,31 @@
+{
+    "keyboard_name": "Corne single mcu",
+    "manufacturer": "foostan",
+    "url": "",
+    "maintainer": "qmk",
+    "usb": {
+        "vid": "0x4653",
+        "pid": "0x0001",
+        "device_version": "0.0.1"
+    },
+    "rgb_matrix": {
+        "driver": "ws2812"
+    },
+    "features": {
+        "bootmagic": true,
+        "extrakey": false,
+        "mousekey": false,
+        "nkro": true,
+        "oled": false
+    },
+    "build": {
+        "lto": true
+    },
+    "matrix_pins": {
+        "cols": ["GP4", "GP5", "GP6", "GP7", "GP8", "GP9", "GP10","GP11","GP12","GP13","GP14","GP15"],
+        "rows": ["GP27", "GP26", "GP25", "GP23"]
+    },
+    "diode_direction": "COL2ROW",
+    "processor": "RP2040",
+    "bootloader": "rp2040"
+}
