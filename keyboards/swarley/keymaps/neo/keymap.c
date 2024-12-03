@@ -140,7 +140,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // left hand side - main
     KC_TAB,           DE_X,                     DE_V,                     DE_L,                     DE_C,             DE_W,             DE_K,             DE_H,             DE_G,             DE_F,             DE_Q,             NEO2_SHARP_S,
     NEO2_LMOD3,       DE_U,                     DE_I,                     DE_A,                     DE_E,             DE_O,             DE_S,             DE_N,             DE_R,             DE_T,             DE_D,             DE_Y,
-    KC_LSFT,          DE_UDIA,                  DE_ODIA,                  DE_ADIA,                  DE_P,             DE_Z,             DE_B,             DE_M,             NEO2_COMMA,       NEO2_DOT,         DE_J,             KC_RSFT,                                                                          KC_SPACE,                 KC_SPACE,         KC_SPACE,         KC_SPACE,         KC_SPACE,         KC_SPACE
+    KC_LSFT,          DE_UDIA,                  DE_ODIA,                  DE_ADIA,                  DE_P,             DE_Z,             DE_B,             DE_M,             NEO2_COMMA,       NEO2_DOT,         DE_J,             KC_RSFT,
+                                                                          KC_LGUI,                  KC_SPACE,         KC_LCTL,          KC_LALT,          KC_BSPC,          NEO2_LMOD4
   ),
 
   /* NEO_3: Symbol layer
@@ -195,7 +196,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    */
   [NEO_4] = LAYOUT_ortho_4x12(
     // left hand side - main
-    _______,            KC_PGUP,                  KC_BSPC,                  KC_UP,                KC_DELETE,          KC_PGDN,               NEO2_L3_INV_EXCLAMATION,   KC_7,                     KC_8,              KC_9,            DE_PLUS,              NEO2_L3_EM_DASH,
+    KC_ESCAPE,          KC_PGUP,                  KC_BSPC,                  KC_UP,                KC_DELETE,          KC_PGDN,               NEO2_L3_INV_EXCLAMATION,   KC_7,                     KC_8,              KC_9,            DE_PLUS,              NEO2_L3_EM_DASH,
     _______,            KC_HOME,                  KC_LEFT,                  KC_DOWN,              KC_RIGHT,           KC_END,                NEO2_L3_INV_QUESTIONMARK,  KC_4,                     KC_5,              KC_6,            DE_COMM,              KC_DOT,
     _______,            KC_ESCAPE,                KC_TAB,                   KC_INSERT,            KC_ENTER,           KC_NO /* NOOP */,      NEO2_L3_COLON,             KC_1,                     KC_2,              KC_3,            NEO2_L3_SEMICOLON,    _______,
                                                                             _______,              _______,            _______,               _______,                   _______,                  _______            
